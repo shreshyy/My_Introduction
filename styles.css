@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  margin : 0;
+  padding : 0;
+}
+
+body{
+  height : 100%;
+  width : 100%;
+}
+
+.name{
+  font-family: 'Oswald';
+  margin-left:55%;
+  font-size: 40px;
+  padding-top: 20px;
+  color : navy blue;
+  font-family: serif;
+  font-weight:400;
+  font-family: 'Libre Baskerville', serif;
+}
+
+img{
+  filter:brightness(100%);
+}
+
+#picture{
+  height : 90%;
+  margin-left: 15px;
+  margin-top: -25px;
+  margin-left: 20px;
+  position: absolute;
+  margin-bottom: 20%;
+}
+
+.box{
+  height : 100%;
+  width : 37%;
+  top : 0;
+  left : 0;
+  position :absolute;
+  background: rgba(17,17,49,0.5);
+  z-index: -1;
+}
+
+.know{
+  margin-top : 20px;
+  margin-left : 50%;
+  margin-right : 5%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  font-weight:lighter;
+  color : #A17A74;
+}
+
+.info{
+  margin-left: -10%;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 1.5;
+}
+
+.social{
+  margin-left: 35%;
+}
+
+footer{
+  margin-left : -10%;
+  font-size: 15px;
+}
+
+@keyframes example {
+  from {color: black;}
+  to {color: #339ACC;}
+}
+
+.info{
+  color: black;
+  animation-name: example;
+  animation-duration: 15s;
+  animation-delay: 2s;
+}
